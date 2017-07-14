@@ -139,7 +139,7 @@
 
 		public function getPlanets($userId){
 			$stmt = $this->conn->prepare("SELECT p.id, p.name, u.username FROM prospectingmanagerdb.planets p
-																		JOIN prospectingmanagerdb.users u ON u.id = p.owner LEFT JOIN prospectingmanagerdb.planets2users p2u ON p.id = p2u.planet
+																		JOIN prospectingmanagerdb.users u ON u.id = p.owner LEFT JOIN prospectingmanagerdb.planets2users p2u ON p.id = p2u.planet AND p2u.user = ?
 																		WHERE p.deleted = 0 AND (p.owner = ? OR p.shareall = TRUE OR p2u.user = ?) ORDER BY p.id;");
 			$stmt->bind_param("ii", $userId, $userId);
 			$stmt->execute();
