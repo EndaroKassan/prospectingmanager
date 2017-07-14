@@ -1,0 +1,28 @@
+img{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+label, #title{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+select{
+	border-radius: 5px;
+}
+
+.mainSection{
+	border-radius: 10px;
+}
+
+.selectedImage{
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+}
+
+.sideMenuLogo{
+	border-style: none;
+}
+

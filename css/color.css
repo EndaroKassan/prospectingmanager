@@ -1,0 +1,23 @@
+body{
+	background-color: #1C1F21;
+}
+
+label{
+	color: #FFD000;
+}
+
+.guiFrame, #map{
+	background-color: #484E53;
+}
+
+.mainSection{
+	background-color: #A30900;	
+}
+
+#liveSearch{
+	background-color: white;
+}
+
+#title, #userName{
+	color: white;
+}

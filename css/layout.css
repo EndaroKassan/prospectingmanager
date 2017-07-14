@@ -1,0 +1,220 @@
+button, input{
+	border-radius: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+select{
+	margin-top: 2px;
+}
+
+.bigImage{
+	width: 100px;
+	height: 100px;
+}
+
+.bottomMenuLowerColumn{
+	position: relative;
+	height: 100px;
+}
+
+.gridImage{
+	position: absolute;
+}
+
+.guiFrame{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.mainSection{
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.mediumImage{
+	width: 50px;
+	height: 50px;	
+}
+
+.menuTable, #addUserInput{
+	width: 100%;
+}
+
+.selectedImage{
+	z-index: 10;
+}
+
+.sideMenu{
+	vertical-align: top;
+	width: 250px;
+	min-width: 250px;
+	height: 100%;
+}
+
+.sideMenuGuiFrame{
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 640px;
+}
+
+.sideMenuLogo{
+	width: 189px;
+	height: 189px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+
+.smallImage{
+	width: 25px;
+	height: 25px;	
+}
+
+.topMenubutton{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.topMenuRightElement, #editAllCheckbox, #logoutForm, #shareAllCheckbox{
+	float: right;
+}
+
+#bottomMenuUpperLeftCoulmn{
+	width: 50%;
+}
+
+#bottomMenuUpperRightCoulmn{
+	position: relative;
+}
+
+#depositTypeImg{
+	position: absolute;
+	bottom: 0;
+	left: 130px;
+}
+
+#depositTypeSelect{
+	height: 100px;
+	width: 120px;
+	position: absolute;
+	bottom: 0;
+}
+
+#grid{
+	padding-top: 5px;
+}
+
+#gridDepositLabel{
+	position: absolute;
+	bottom: 0;
+}
+
+#header{
+	padding-bottom: 5px;
+}
+
+#liveSearch{
+	display: none;
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#liveSearch a{
+	display: block;
+	width: 100%;
+}
+
+#main{
+	padding-top: 0px;
+}
+
+#map{
+	margin: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+#planetSelect{
+	width: 100%;
+	height: 518px;
+}
+
+#planetSizeInput{
+	width: 32px;
+}
+
+#planetStatsSection{
+	vertical-align: top;
+}
+
+#rightSideMenuLeftColumn{
+	width: 32%;
+	vertical-align: top;
+}
+
+#rightSideMenuRightColumn{
+	position: relative;
+}
+
+#terrainTypeImg{
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+}
+
+#title{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#topMenuLeftCoulmn{
+	text-align: center;
+	vertical-align:bottom;
+	width: 38%;
+}
+
+#topMenuRightCoulmn{
+	text-align: center;
+}
+
+#userSelect{
+	width:100%;
+	height:83%;
+}
+
+#depositList{
+	width: 100%;
+}
+
+#depositList tr{
+	width: 100%;
+}
+
+#depositList td,th{
+	width: 33%;
+	text-align: right;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#depositMenu{
+	background-color: white;
+	height: 620px;
+	border-radius: 5px;
+}
